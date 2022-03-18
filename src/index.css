@@ -16,8 +16,8 @@ code {
 }
 @font-face {
   font-family: "herobeam";
-  src: url("/assets/fonts/HeroBeamRegular-8Mw8J.woff2") format("woff2"),
-    url("/assets/fonts/HeroBeamRegular-8Mw8J.ttf") format("ttf");
+  src: url("/fonts/HeroBeamRegular-8Mw8J.woff2") format("woff2"),
+    url("/fonts/HeroBeamRegular-8Mw8J.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
