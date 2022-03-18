@@ -1,12 +1,15 @@
+import Timer from "./components/Timer";
 import NavBar from "./layout/NavBar";
-
 const App = () => {
   return (
     <div className="App">
-      <NavBar />
-      <h1 className="text-3xl font-bold text-pink-400 underline">
-        Hello Luterra!
-      </h1>
+      <div
+        className="h-screen w-full bg-cover"
+        style={{ backgroundImage: `url(/assets/images/background1.webp)` }}
+      >
+        <NavBar />
+        <Timer />
+      </div>
     </div>
   );
 };
